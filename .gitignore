@@ -1,0 +1,22 @@
+# dependencies
+node_modules/
+
+# next.js build output
+.next/
+out/
+
+# production builds
+build/
+
+# secrets — never commit real connection strings
+.env
+.env.local
+.env.*.local
+
+# logs
+*.log
+
+# misc
+.DS_Store
+next-env.d.ts
+tsconfig.tsbuildinfo
